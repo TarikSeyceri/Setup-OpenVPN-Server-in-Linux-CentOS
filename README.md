@@ -139,7 +139,7 @@ to
 ###### Use the shell script file i wrote to generate clients keys very easily
 ###### Download it from this github repo: OpenVPNClientsKeysGenerator.sh
 
-###### to Download it from CentOS you will need to Programs
+###### to Download it from CentOS you will need two Programs
 > yum -y install wget unzip
 
 ###### Then you download with wget and unzip
