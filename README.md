@@ -157,7 +157,7 @@ to
 > https://openvpn.net/community-downloads/
 ###### For Other OS OpenVPN or Other VPN Client Programs ( Google it :) )
 
-# Setup OpenVPN Client
+# Setup OpenVPN Client in Windows
 ###### Download the THE_CLIENT_USERNAME.ovpn file from the server and send it to the Client Computer
 ###### The Client Computer should download: https://openvpn.net/community-downloads/ and install Next - Next - Next
 ###### Open the location of the OpenVPN Client after installation => From Desktop => OpenVPN GUI => right click => Properties => Open File Location
