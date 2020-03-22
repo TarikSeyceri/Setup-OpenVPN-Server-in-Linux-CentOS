@@ -135,5 +135,5 @@ to
 > systemctl enable openvpn@server
 
 ###### Then to create Clients
-###### Use the Script i wrote to generate client keys very easily
+###### Use the Script i wrote to generate clients keys very easily
 
