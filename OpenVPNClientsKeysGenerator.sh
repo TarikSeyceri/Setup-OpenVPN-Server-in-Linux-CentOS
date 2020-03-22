@@ -30,7 +30,7 @@ sudo mkdir /root/Documents 2> /dev/null
 echo ""
 echo "---------------------------------"
 echo ""
-echo "Welcome to OpenVPN Client Generater (By Tarik Seyceri)"
+echo "Welcome to OpenVPN Clients Keys Generator (By Tarik Seyceri)"
 echo ""
 echo "Enter client device name (Must be Unique)"
 read client_device_name
