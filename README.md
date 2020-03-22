@@ -163,6 +163,6 @@ to
 ###### Open the location of the OpenVPN Client after installation => From Desktop => OpenVPN GUI => right click => Properties => Open File Location
 ###### Go back one level up, then go to config folder: the path should be something like: C:\Program Files\OpenVPN\config
 ###### Copy the THE_CLIENT_USERNAME.ovpn inside the config folder then close the window
-###### from the Desktop run OpenVPN GUI, from the TaskBar you will see the OpenVPN icon, right click connect. Done!
+###### from the Desktop run OpenVPN GUI, from the TaskBar you will see the OpenVPN icon, right click => connect. Done!
 
 
