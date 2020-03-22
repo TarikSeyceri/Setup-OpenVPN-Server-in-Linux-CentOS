@@ -139,17 +139,17 @@ to
 ###### Use the shell script file i wrote to generate clients keys very easily
 ###### Download it: OpenVPNClientsKeysGenerator.sh
 
-###### Place it wherever you want on the server, let's assume we will put it in the root /
+###### Place it wherever you want on the server, let's assume we will put it in the root '/'
 
 > nano /OpenVPNClientsKeysGenerator.sh
 ###### Modify 'server_static_ip_address' variable to work with your Server's IP Address
 ###### If easy-rsa version is changed?, make sure you change it in 'path_to_rsa' variable
 
 ###### To autherise the file to be executed
-> sudo chmod +x OpenVPNClientsKeysGenerator.sh
+> sudo chmod +x /OpenVPNClientsKeysGenerator.sh
 
 ###### Then you can run it with
-> ./OpenVPNClientsKeysGenerator.sh
+> /./OpenVPNClientsKeysGenerator.sh
 
 ###### Follow the instructions in the Script
 ###### It will only ask for the client username, make sure it is unique
