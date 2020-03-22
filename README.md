@@ -168,8 +168,8 @@ to
 ###### For Other OS OpenVPN or Other VPN Client Programs ( Google it :) )
 
 # Setup OpenVPN Client in Windows
-###### Download the THE_CLIENT_USERNAME.ovpn file from the server and send it to the Client Computer
-###### The Client Computer should download: https://openvpn.net/community-downloads/ and install Next - Next - Next
+###### Download the THE_CLIENT_USERNAME.ovpn file from the server using SFTP or SSH and send it to the Client Computer.
+###### Download the OpenVPN Client from: https://openvpn.net/community-downloads/ and then double click install Next — Next — Next
 ###### Open the location of the OpenVPN Client after installation => From Desktop => OpenVPN GUI => right click => Properties => Open File Location
 ###### Go back one level up, then go to config folder: the path should be something like: C:\Program Files\OpenVPN\config
 ###### Copy the THE_CLIENT_USERNAME.ovpn inside the config folder then close the window
