@@ -1,6 +1,6 @@
 # Setup VPN Server (OpenVPN Server) in Linux CentOS
 
-###### This tutorial works great on CentOS 7.x, if it somehow didn't work on CentOS 8.x ( or above if you are coming from the future :) ), you will have to do some workarounds.
+###### This tutorial works great on CentOS 7.x, if it somehow didn't work on CentOS 8.x ( i didn't test it on CentOS 8 ) ( or above if you are coming from the future :) ), you will have to do some workarounds.
 
 ###### Commands:
 ###### First installation of Needed Libraries and Programs
