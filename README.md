@@ -135,5 +135,33 @@ to
 > systemctl enable openvpn@server
 
 ###### Then to create Clients
-###### Use the Script i wrote to generate clients keys very easily
+# Create and Setup Clients
+###### Use the shell script file i wrote to generate clients keys very easily
+###### Download it: OpenVPNClientsKeysGenerator.sh
+
+###### Place it wherever you want on the server, let's assume we will put it in the root /
+###### Modify 'server_static_ip_address' variable to work with your Server's IP Address
+###### If easy-rsa version is changed?, make sure you change it in 'path_to_rsa' variable
+> nano /OpenVPNClientsKeysGenerator.sh
+
+###### To autherise the file to be executed
+> sudo chmod +x OpenVPNClientsKeysGenerator.sh
+
+###### Then you can run it with
+> ./OpenVPNClientsKeysGenerator.sh
+
+###### Follow the instructions in the Script
+###### It will only ask for the client username, make sure it is unique
+###### a folder has been created with the client username you wrote in the path: /root/Documents/, provides THE_CLIENT_USERNAME.ovpn and the needed keys and certs to be used for VPN Client Programs, if you want to use OpenVPN Client (Which is recommended), for Windows download it from here: 
+> https://openvpn.net/community-downloads/
+###### For Other OS OpenVPN or Other VPN Client Programs ( Google it :) )
+
+# Setup OpenVPN Client
+###### Download the THE_CLIENT_USERNAME.ovpn file from the server and send it to the Client Computer
+###### The Client Computer should download: https://openvpn.net/community-downloads/ and install Next - Next - Next
+###### Open the location of the OpenVPN Client after installation => From Desktop => OpenVPN GUI => right click => Properties => Open File Location
+###### Go back one level up, then go to config folder: the path should be something like: C:\Program Files\OpenVPN\config
+###### Copy the THE_CLIENT_USERNAME.ovpn inside the config folder then close the window
+###### from the Desktop run OpenVPN GUI, from the TaskBar you will see the OpenVPN icon, right click connect. Done!
+
 
