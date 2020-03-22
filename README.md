@@ -153,6 +153,7 @@ to
 
 ###### To autherise the file to be executed
 > sed -i -e 's/\r$//' OpenVPNClientsKeysGenerator.sh
+
 > sudo chmod +x OpenVPNClientsKeysGenerator.sh
 
 ###### Then you can run it with
