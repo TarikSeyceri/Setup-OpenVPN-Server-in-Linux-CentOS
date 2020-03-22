@@ -137,7 +137,7 @@ to
 ###### Then to create Clients
 # Create and Setup Clients
 ###### Use the shell script file i wrote to generate clients keys very easily
-###### Download it: OpenVPNClientsKeysGenerator.sh
+###### Download it from this github repo: OpenVPNClientsKeysGenerator.sh
 
 ###### Place it wherever you want on the server, let's assume we will put it in the root '/'
 
