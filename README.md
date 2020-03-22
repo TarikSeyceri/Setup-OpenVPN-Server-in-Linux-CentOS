@@ -139,17 +139,23 @@ to
 ###### Use the shell script file i wrote to generate clients keys very easily
 ###### Download it from this github repo: OpenVPNClientsKeysGenerator.sh
 
-###### Place it wherever you want on the server, let's assume we will put it in the root '/'
+###### to Download it from CentOS you will need to Programs
+> yum -y install wget unzip
 
-> nano /OpenVPNClientsKeysGenerator.sh
+###### Then you download with wget and unzip
+> wget https://github.com/TarikSeyceri/Setup-VPN-Server-OpenVPN-Server-in-Linux-CentOS/archive/master.zip
+> unzip -qq master.zip && rm -rf master.zip
+> cd Setup-VPN-Server-OpenVPN-Server-in-Linux-CentOS-master
+
+> nano OpenVPNClientsKeysGenerator.sh
 ###### Modify 'server_static_ip_address' variable to work with your Server's IP Address
 ###### If easy-rsa version is changed?, make sure you change it in 'path_to_rsa' variable
 
 ###### To autherise the file to be executed
-> sudo chmod +x /OpenVPNClientsKeysGenerator.sh
+> sudo chmod +x OpenVPNClientsKeysGenerator.sh
 
 ###### Then you can run it with
-> /./OpenVPNClientsKeysGenerator.sh
+> ./OpenVPNClientsKeysGenerator.sh
 
 ###### Follow the instructions in the Script
 ###### It will only ask for the client username, make sure it is unique
