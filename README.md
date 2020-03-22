@@ -144,7 +144,9 @@ to
 
 ###### Then you download with wget and unzip
 > wget https://github.com/TarikSeyceri/Setup-VPN-Server-OpenVPN-Server-in-Linux-CentOS/archive/master.zip
+
 > unzip -qq master.zip && rm -rf master.zip
+
 > cd Setup-VPN-Server-OpenVPN-Server-in-Linux-CentOS-master
 
 > nano OpenVPNClientsKeysGenerator.sh
