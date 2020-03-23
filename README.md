@@ -117,15 +117,15 @@ to
 
 > systemctl status firewalld
 
-> sudo firewall-cmd - set-default=trusted
+> sudo firewall-cmd --set-default=trusted
 
-> firewall-cmd - permanent - zone=trusted - add-masquerade
+> firewall-cmd --permanent --zone=trusted --add-masquerade
 
-> firewall-cmd - permanent - add-service openvpn
+> firewall-cmd --permanent --add-service openvpn
 
-> firewall-cmd - reload
+> firewall-cmd --reload
 
-> firewall-cmd - list-all
+> firewall-cmd --list-all
 
 
 ###### Sometimes openvpn asks for service.conf so we:
