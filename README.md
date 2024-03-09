@@ -1,4 +1,4 @@
-# Setup VPN Server (OpenVPN Server) in Linux CentOS
+# Setup VPN Server (OpenVPN) in Linux CentOS
 
 ###### Very simple steps to create your own VPN Server and use it with Multiple Clients.
 
